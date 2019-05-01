@@ -5,6 +5,7 @@
 }
 main {
     width: 680px;
+    height: 640PX;
     margin: 0 auto;
 }
 
@@ -13,13 +14,13 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 article {
-    border: 1px solid #ECF0F1;
-    padding: 20px;
+    border: 0.5px solid #ECF0F1;
+    padding: 18.8px;
     width: 100%;
 }
 .poster {
     height: 350px;
-    width: 100%;
+    width: 640px;
     background-color: #A1B1BC;  
     margin-bottom: 14.4px;
 }
@@ -57,6 +58,7 @@ article {
 }
 .text {
     margin-bottom: 16px;
+    width: 642.23px;
 }
 .text p {
     font-family: 'PT Sans';
@@ -68,6 +70,8 @@ article {
 .content a {
     display: inline-block;
     font-family: 'PT Sans';
+    width: 64px;
+    height: 18px;
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
