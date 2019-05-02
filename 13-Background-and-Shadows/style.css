@@ -28,6 +28,7 @@
       align-items: center;
       height: 100vh;
       width: 100vw;
+      overflow: hidden;
   }
 section > div {
     position: absolute;
@@ -39,6 +40,8 @@ section > div {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    filter: blur(16px);
+    transform: scale(1.1);
 }
 
 section > div::before {
