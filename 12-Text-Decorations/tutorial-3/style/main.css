@@ -17,7 +17,7 @@ footer {
 footer .wrap {
     width: 1168px;
     height: 270.58px;
-    margin: 0 auto;
+    margin-left: 374.1px;
     display: flex;
 }
 
@@ -25,7 +25,7 @@ footer .top {
     display: inline-block;
     margin-top: 60px;
     width: 100%;
-    height: 468px;
+    height: 469px;
     padding: 95px 0 98x;
     background-color: #222533;
     border-bottom: 1px solid #39444E;
@@ -43,7 +43,7 @@ footer .top h3 {
     margin-bottom: 30px;
 }
 footer .top .wrap > div{
-    padding-top: 97px;
+    padding-top: 96px;
     width: 270.58px;
     height: 270.58px; /*TODO: Remove*/
 }
@@ -124,7 +124,7 @@ footer .top p {
 
 footer .top p span {
     color: #A1B1BC;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 footer .top p a {
     color: #1ABC9C;
@@ -152,12 +152,14 @@ footer .bottom {
 footer .bottom p {
     font-size: 15px;
     color: #A1B1BC;
-    margin-top: 38px;
+    margin-top: 37px;
     line-height: 26px;
     margin-left: 2px;
     letter-spacing: 0.043px;
 }
 footer .bottom p a {
     text-decoration: none;
+    letter-spacing: 0.043px;
     color: #1ABC9C;
+    word-spacing: 0.2px;
 }
