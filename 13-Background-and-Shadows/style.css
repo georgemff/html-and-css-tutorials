@@ -54,10 +54,10 @@ section > div::before {
     width: 100%;
     background: linear-gradient(
         0deg,
-        rgba(0,0,0 1) 0%,
-        rgba(0,0,0 0.81) 37%,
-        rgba(0,0,0 0.67) 55%,
-        rgba(0,0,0 0) 100%
+        rgba(0,0,0, 1) 0%,
+        rgba(0,0,0, 0.81) 37%,
+        rgba(0,0,0, 0.67) 55%,
+        rgba(0,0,0, 0) 100%
     );
     opacity: 0.85;
 }
